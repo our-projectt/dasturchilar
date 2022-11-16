@@ -1,0 +1,93 @@
+.segodnya-section{
+    padding: 46px 0;
+    background-color: #222222;
+}
+.segodnya__title{
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #2194FF;
+    
+}
+.segodnya__main{
+    margin-top: 50px;
+    display: flex;
+    column-gap: 10px;
+}
+.segodnya__mainleft__title{
+    padding-top: 10px;
+    font-size: 36px;
+    line-height: 43px;
+    color: #F1F1F1;
+}
+.segodnya__mainleft__text{
+    font-size: 24px;
+    line-height: 29px;
+    color: #2194FF;
+}
+.segodnya__mainleft__subtext{
+    margin: 21px 0 30px 0;
+    max-width: 253px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F1F1F1;
+}
+.segodnya__mainleft__link{
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #F1F1F1;
+    background: #2194FF;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.segodnya__maincenter{
+    text-align: center;
+}
+.segodnya__maincenter__title{
+    font-size: 20px;
+    line-height: 24px;
+    color: #F1F1F1;
+    opacity: 0.7;
+}
+.segodnya__maincenter__number{
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    
+}
+.segodnya__maincenter__number--text{
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(241, 241, 241, 0.7);
+}
+.segodnya__maincenter__img{
+    max-width: 540px;
+}
+.segodnya__maincenter__img img{
+    width: 100%;
+}
+@media screen and (max-width:768px) {
+    .segodnya__main{
+        flex-direction: column;
+        column-gap: 0px;
+        align-items: center;
+        row-gap: 20px;
+        text-align: center;
+    }
+    .segodnya__mainleft__subtext{
+        margin: 21px 0 30px 0;
+        max-width: 80%;
+        text-align: center;
+       
+    }
+    .segodnya__mainleft{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

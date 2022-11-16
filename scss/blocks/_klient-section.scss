@@ -1,0 +1,108 @@
+.klient-section{
+    background-color: #222222;
+}
+
+.klient{
+    padding: 40px 0;
+}
+.klient__cardRight{
+    max-width: 445px;
+}
+.klient__title{
+    margin-bottom: 47px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 43px;
+    color: #F1F1F1;
+
+}
+.klient__cardWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+
+}
+.klient__card{
+
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    
+    background: #F1F1F1;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+.klient__card--img{
+    max-width: 255px;
+    // width: 100%;
+
+    max-height: 255px ;
+}
+.klient__card--avatar{
+    width: 100%;
+    // height: 100%;
+
+    border-radius: 20px; 
+}
+.klient__cardRight{
+    margin-left: 15px;
+
+}
+
+.klient__cardRight__title{
+    font-size: 24px;
+    line-height: 29px;
+    color: #2194FF;
+}
+.klient__cardRight__adres{
+    margin: 5px 0 15px 0;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2D2D2D;
+}
+.klient__cardRight__text{
+    width: 100%;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2D2D2D;
+
+}
+.klient__cardWrapper--Btn{
+    max-width: 47px;
+}
+.klient__cardWrapper--Btn img{
+    width: 100%;
+}
+.klient__cardWrapper--Btn button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.klient__cardIteamsWrapper{
+    margin-top: 24px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   column-gap: 8px;
+
+}
+.klient__cardIteam{
+    width: 61px;
+    height: 18px;
+    border-radius: 20px;
+    border: none;
+    background: rgba(241, 241, 241, 0.2);
+}
+.klient__cardIteam--active{
+    background: #2194FF;
+ 
+}
+
+@media screen and (max-width:500px) {
+    .klient__card{
+      display: flex;
+      flex-direction: column;
+    }
+}

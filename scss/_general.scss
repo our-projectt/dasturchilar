@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    
+}
+
+img{
+    object-fit: cover;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Latest compiled and minified CSS -->
+</head>
+<body>
+    <main class="site-main">
+
+        <section class="hero">
+
+            <div class="container">
+                <div class="flex">
+                    <div class="hero__left">
+                    
+                            <div class="hero__left__logo flex">
+                                <div class="flex logo__flex">
+                                    <a class="logo" href=""><img src="./icons/logo.svg" alt=""></a>
+                                    <div class="hero__left__logo__line"></div>
+                                    <p class="hero__left__logo__text">
+                                        Расправь плечи <br>
+                                        в теплом доме
+                                    </p>
+                                </div>
+
+                                <div class="hero__right__box1">
+                                    <p class="hero__right__box1__number">+7 926 330-68-34</p>
+                                    <a class="hero__right__box1__link link" href="">Срочный вопрос</a>
+                                </div>
+                                
+                            </div>
+                            <div class="hero__left__icons">
+                                <div class="hero__left__icons__box">
+                                    <div class="hero__left__icons__box__images">
+                                        <img src="./icons/moon.svg" alt="">
+                                        <img src="./icons/right.svg" alt="">
+                                        <img src="./icons/sun.svg" alt="">
+                                    </div>
+                                    <p class="hero__left__icons__box__text">
+                                        В любое время дня и ночи
+                                    </p>
+                                </div>
+                                <div class="hero__left__icons__box">
+                                    <div class="hero__left__icons__box__images">
+                                        <img src="./icons/cloudy.svg" alt="">
+                                        <img src="./icons/right.svg" alt="">
+                                        <img src="./icons/snowfall.svg" alt="">
+                                    </div>
+                                    <p class="hero__left__icons__box__text">
+                                        В любое время дня и ночи
+                                    </p>
+                                </div>
+                            </div>
+                    
+                    
+                            <div class="hero__left__main">
+                                <h2 class="hero__left__main__title">
+                                    Доставим газ
+                                    за 4 часа
+                                </h2>
+                                <div class="aroow flex">
+                                    <p class="hero__left__main__text">
+                                        в любую точку  Москвы
+                                        и Московской области
+                                    </p>
+                                    <img class="M" src="./icons/arrow.svg" alt="">
+                                </div>
+                                <a class="hero__left__main__btn" href="./pages/zakaz.html">
+                                    Заказать доставку газа 
+                                </a>
+                            </div>
+                    </div>
+                    <div class="hero__right ">
+                        <div class="hero__right__box">
+                            <p class="hero__right__box__number">+7 926 330-68-34</p>
+                            <a class="hero__right__box__link link" href="">Срочный вопрос</a>
+                        </div>
+
+                        <img class="photo" src="./images/firstpage.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+        <section class="segodnya-section">
+            <div class="container">
+                <div class="segodnya">
+                    <div class="segodnya__titleWrapper">
+                        <h2 class="segodnya__title"> 
+                            Стоимость газа в ваш газгольдер сегодня
+                        </h2>
+                    </div>
+                    <div class="segodnya__main">
+                        <div class="segodnya__mainleft">
+                            <h3 class="segodnya__mainleft__title">
+                                Пропан
+                            </h3>
+                            <p class="segodnya__mainleft__text">
+                                от 25 рублей за литр
+                            </p>
+                            <p class="segodnya__mainleft__subtext">
+                                Физически испарение происходит до -40 градусов, что позволяет использовать его в наших с вами погодных условиях
+                            </p>
+                            <a class="segodnya__mainleft__link" href="#" onclick="modal()">Заказать</a>
+                        </div>
+                        <div class="segodnya__maincenter">
+                            <h3 class="segodnya__maincenter__title"> 
+                                Идеальное соотношение
+                            </h3>
+                            <div class="segodnya__maincenter__number">
+                                <p class="segodnya__maincenter__number--text">80% <br> пропана</p>
+                                <p class="segodnya__maincenter__number--text">20% <br> бутана</p>
+                            </div>
+                            <div class="segodnya__maincenter__img">
+                                <img src="./images/segodnyaimg.png" alt="">
+                            </div>
+                        </div>
+                        <div class="segodnya__mainleft">
+                            <h3 class="segodnya__mainleft__title">
+                                Пропан
+                            </h3>
+                            <p class="segodnya__mainleft__text">
+                                от 25 рублей за литр
+                            </p>
+                            <p class="segodnya__mainleft__subtext">
+                                Физически испарение происходит до -40 градусов, что позволяет использовать его в наших с вами погодных условиях
+                            </p>
+                            <a class="segodnya__mainleft__link" href="#" onclick="modal()">Заказать</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="rabota-section">
+           <div class="container">
+                <div class="rabota">
+                    <div class="rabota__titleWrapper">
+                       <h2 class="rabota__title"> 
+                          Преимущества работы с нашей компанией
+                       </h2>
+                    </div>
+                    <div class="rabota__main">
+                        <div class="rabota__card">
+                            <img src="./images/rabota1.png" alt="">
+                            <h3 class="rabota__card__title"> 
+                                Экономия
+                                на хранилище 
+                            </h3>
+                            <p class="rabota__card__text">
+                                за счёт собственных цистерн
+                                на нашей базе
+                            </p>
+                        </div>
+                        <div class="rabota__card">
+                            <img src="./images/rabota2.png" alt="">
+                            <h3 class="rabota__card__title"> 
+                                Экономия
+                                на транспорте 
+                            </h3>
+                            <p class="rabota__card__text">
+                                более 10 собственный газовозов
+                            </p>
+                        </div>
+                        <div class="rabota__card">
+                            <img src="./images/rabota3.png" alt="">
+                            <h3 class="rabota__card__title"> 
+                                Поставки напрямую
+                                от производителей
+                            </h3>
+                            <p class="rabota__card__text">
+                                нет наценки на стоимость газа как у перекупщиков и небольших частных компаний
+                            </p>
+                        </div>
+                        <div class="rabota__card">
+                            <img src="./images/rabota4.png" alt="">
+                            <h3 class="rabota__card__title"> 
+                                Любые объёмы поставки качественного газа
+                            </h3>
+                            <p class="rabota__card__text">
+                                вы получаете объем от 1 тонны до 20 тонн, с сертификатом качества газа
+                            </p>
+                        </div>
+                        <div class="rabota__card">
+                            <img src="./images/rabota5.png" alt="">
+                            <h3 class="rabota__card__title"> 
+                                Оплата удобным
+                                для вас способом
+                            </h3>
+                            <p class="rabota__card__text">
+                                все газовозы оснащены терминалами для оплаты вашего заказа
+                            </p>
+                        </div>
+                        <div class="rabota__card">
+                            <img src="./images/rabota6.png" alt="">
+                            <h3 class="rabota__card__title"> 
+                                Чистый газ
+                                без примесей
+                            </h3>
+                            <p class="rabota__card__text">
+                                нет наценки на стоимость газа как у перекупщиков и небольших частных компаний
+                            </p>
+                        </div>
+                        <div class="rabota__card">
+                            <img src="./images/rabota7.png" alt="">
+                            <h3 class="rabota__card__title"> 
+                                Длина заправочных
+                                рукавов — 50 метров
+                            </h3>
+                            <p class="rabota__card__text">
+                                не требуется подъезд автомобиля вплотную к резервуару
+                            </p>    
+                        </div>
+                        <div class="rabota__card">
+                            <img src="./images/rabota8.png" alt="">
+                            <h3 class="rabota__card__title"> 
+                                Доставка сжиженного газа
+                                в формате  24/7
+                            </h3>
+                            <p class="rabota__card__text">
+                                привезем газ в удобное для вас время или же  по графику
+                            </p>    
+                        </div>
+                        <div class="rabota__card">
+                            <img src="./images/rabota9.png" alt="">
+                            <h3 class="rabota__card__title"> 
+                                Аттестованный
+                                персонал
+                            </h3>
+                            <p class="rabota__card__text">
+                                квалифицированные сотрудники проведут полную консультацию и дадут рекомендации, если такие нужны будут
+                            </p>    
+                        </div>
+                    </div>
+                    <div class="rabota__footer">
+                        <div class="rabota__footer__img">
+                            <img src="./images/rabotafooter.png" alt="">
+                        </div>
+                        <div class="rabota__footer__right">
+                            <h3 class="rabota__footer__text">
+                                Благодаря нашему собственному автопарку мы можем
+                                давать гарантию, что доставим <span class="blue" style="color: rgba(33, 148, 255, 1);">за 4 часа</span> 
+                            </h3>
+                            <a class="rabota__footer__link" href="#">Это сильное конкурентное преимущество, которым мы дорожим</a>
+                        </div>
+                    </div>
+               </div>
+           </div>
+        </section>
+        <section class="gazobaza-section">
+            <div class="container">
+                <div class="gazobaza__hero">
+                    <div class="gazobaza__titleWrapper">
+                        <h2 class="gazobaza__title">
+                            Выберите свой объём Газовоза
+                        </h2>
+                    </div>
+                    <div class="gazobaza__btnWrapper">
+                        <div class="gazobaza__btnIteams">
+                            <button class="gazobaza__btn1 gazobazabtn-active">
+                                Малый  <br>
+                                2000 л.
+                            </button>
+                        </div>
+                        <div class="gazobaza__btnIteams">
+                            <button class="gazobaza__btn2">
+                                Средний <br>
+                                6000 л.
+                            </button>
+                        </div>
+                        <div class="gazobaza__btnIteams">
+                            <button class="gazobaza__btn3">
+                                Стандартный <br>
+                                10 000 л.
+                            </button>
+                        </div>
+                        <div class="gazobaza__btnIteams">
+                            <button class="gazobaza__btn4">
+                                Оптовый <br>
+                                40 000 л.
+                            </button>
+                        </div>
+                    </div><!--gazobaza__btnWrapper -->
+                    <div class="gazobaza__imgWrapper">
+                        <img class="gazobaza__imgWrapper__img" src="./images/gazobaza 1.png" alt="car 2000litr">
+                    </div>
+                    <div class="gazobaza__zakazatBtnWrapper">
+                        <a href="#"  onclick="modal()">Заказать газ</a>
+                    </div>
+                </div><!--gazobaza__hero -->
+            </div><!--container-->
+        </section>
+        <section class="klient-section">
+            <div class="container">
+                <div class="klient">
+                    <div class="klient__titleWrapper">
+                        <h2 class="klient__title">
+                            Отзывы наших клиентов
+                        </h2>
+                    </div>
+                    <div class="klient__cardWrapper">
+                        <div class="klient__cardWrapper--Btn">
+                            <button class="klient__card--left">
+                                <img src="./images/klientleftbtn.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="klient__card">
+                           <div class="klient__card--img">
+                              <img class="klient__card--avatar" src="./images/klient olga.jpg" alt="">
+                           </div>
+                           <div class="klient__cardRight">
+                               <h3 class="klient__cardRight__title">
+                                  <!-- Ольга И. -->
+                               </h3>
+                               <h4 class="klient__cardRight__adres">
+                                  <!-- Красногорск -->
+                               </h4>
+                               <p class="klient__cardRight__text">
+                                   <!-- Я  всегда боюсь газа , а особенно боюсь что он может взорваться, как же мне помог Андрей водитель-экспедитор показал что бояться тут нечего и самое главное моего присутствие даже не понадобится.  Спасибо  компании за то что они все закрыли  этот вопрос под ключ. -->
+                               </p>
+                           </div>
+                        </div>
+                        <div class="klient__cardWrapper--Btn">
+                            <button class="klient__card--right"">
+                              <img src="./images/klientrightbtn.svg" alt="">     
+                            </button>
+                        </div>
+                    </div>
+                    <div class="klient__cardIteamsWrapper">
+                        <button class="klient__cardIteam klient__cardIteam--active"></button>
+                        <button class="klient__cardIteam"></button>
+                        <button class="klient__cardIteam"></button>
+                        <button class="klient__cardIteam"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="otvet-section">
+            <div class="container">
+                <div class="otvet">
+                    <div class="otvet__iteamWrapper">
+                        <div class="otvet__iteam">
+                            <button class="otvet__btn otvet__btn1 " onclick="modal1()">
+                                <img class="otvet__img1" src="./images/down.svg" alt="">
+                                <span class="otvet__span otvet__span1">Есть ли у вас инженеры в компании?</span>
+                            </button>
+                            <p class="otvet__text otvet__text1">
+                                За счёт длинны в 50 м. делаем заправку не заезжая и не портим газон, а так же не мешаем соседям
+                            </p>
+                        </div>
+                        <div class="otvet__iteam">
+                            <button class="otvet__btn otvet__btn2"  onclick="modal2()">
+                                <img class="otvet__img2" src="./images/down.svg" alt="">
+                                <span class="otvet__span otvet__span2">Делаете ли вы отчистку газгольдера?</span>
+                            </button>
+                            <p class="otvet__text otvet__text2">
+                                За счёт длинны в 50 м. делаем заправку не заезжая и не портим газон, а так же не мешаем соседям
+                            </p>
+                        </div>
+                        <div class="otvet__iteam">
+                            <button class="otvet__btn otvet__btn3"  onclick="modal3()">
+                                <img class="otvet__img3" src="./images/down.svg" alt="">
+                                <span class="otvet__span otvet__span3">А вы не испортите газон у меня и соседей?</span>
+                            </button>
+                            <p class="otvet__text otvet__text3">
+                                За счёт длинны в 50 м. делаем заправку не заезжая и не портим газон, а так же не мешаем соседям
+                            </p>
+                        </div>
+                        <div class="otvet__iteam">
+                            <button class="otvet__btn otvet__btn4 " onclick="modal4()">
+                                <img class="otvet__img4" src="./images/down.svg" alt="">
+                                <span class="otvet__span otvet__span4">Вы предоставляете документы для субсидий?</span>
+                            </button>
+                            <p class="otvet__text otvet__text4">
+                                За счёт длинны в 50 м. делаем заправку не заезжая и не портим газон, а так же не мешаем соседям
+                            </p>
+                        </div>
+                        <div class="otvet__iteam">
+                            <button class="otvet__btn otvet__btn5 " onclick="modal5()">
+                                <img class="otvet__img5" src="./images/down.svg" alt="">
+                                <span class="otvet__span otvet__span5">Смогу ли я заказать во время праздников?</span>
+                            </button>
+                            <p class="otvet__text otvet__text5">
+                                За счёт длинны в 50 м. делаем заправку не заезжая и не портим газон, а так же не мешаем соседям
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+  <!-- Site Main End  -->
+
+   <div class="modal">
+    <div>
+        <div class="modal__box">
+            <div class="modal__hero">
+                <h3 class="modal__title">
+                    Доставим газ
+                    за 4 часа
+                </h3>
+                <button class="modalX"  onclick="modalx()"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                    </svg>
+                </button>
+            </div>
+            <form class="modal__form">
+                <input class="userText" type="text" name="userName" id="userName" placeholder="имя" required>
+                <input class="userName" type="tel" name="userNumber" id="userNumber" placeholder="Телефон" required>
+                <a href="./pages/vernutsya.html" class="modal__btn" >Заказать доставку газа</a>
+            </form>
+        </div>
+    </div>
+   </div>
+   
+   
+   
+   
+   
+   
+   
+   <section class="input">
+       <div class="container">
+           <div class="input__box flex">
+               <div class="input__box__left">
+                   <form class="input__box__left__form" id="form">
+                       <h3 class="input__box__left__form__title">
+                           Не нашли ответа на свой вопрос задайте их нашему специалисту 
+                        </h3>
+                        <input type="text" name="user__name" id="user__name" class="input__box__left__form__name" placeholder="имя" required>
+                        <input type="tel" name="user__tel" id="user__tel" class="input__box__left__form__name" placeholder="Телефон" required>
+                        <input type="text" name="user__desc" id="user__desc" class="input__box__left__form__desc" placeholder="ваш вопрос" required>
+                        
+                        <button type="submit" class="input__box__left__form__btn">Задать вопрос </button>
+                    </form>
+                </div>
+                
+                <div class="input__box__right">
+                    <img src="./images/roman.png" alt="">
+                    <div class="input__box__right__text">
+                        <p class="input__box__right__text__title">Роман Ш.</p>
+                        <p class="input__box__right__text__subtitle">Старший менеджер</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="partners">
+                <ul class="partners__lists flex">
+                    <li class="partners__lists__list">
+                        <div class=""><img src="./images/rosneft.png" alt=""></div>
+                    </li>
+
+                    <li class="partners__lists__list">
+                        <div class=""><img src="./images/bashneft.png" alt=""></div>
+                    </li>
+                    
+                    <li class="partners__lists__list">
+                        <div class=""><img src="./images/transneft.png" alt=""></div>
+                    </li>
+
+                    <li class="partners__lists__list">
+                        <div class=""><img src="./images/gazprom.png" alt=""></div>
+                    </li>
+
+                    <li class="partners__lists__list">
+                        <div class=""><img src="./images/lukoyl.png" alt=""></div>
+                    </li>
+                    
+                    <li class="partners__lists__list">
+                        <div class=""><img src="./images/tatneft.png" alt=""></div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="location">
+                <h3 class="location__title">
+                    Закажи прямо сейчас и получи
+                    бесплатную установку телеметрии
+                </h3>
+                <div class="location__btn">
+                    <button onclick="modal()" type="button">Заказать газ</button>
+                </div>
+                
+                <div class="location__map flex">
+                    <div class="location__map__left">
+                        <h3 class="location__map__left__title">
+                            Посетите наш уютный офис
+                        </h3>
+                        <p class="location__map__left__text">
+                            где мы сможем вас полностью 
+                            проконсультировать по всем  вопросам
+                        </p>
+                        
+                        <div class="location__map__left__line"></div>
+
+                        <h4 class="location__map__left__smallTitle">
+                            Офис
+                        </h4>
+                        <p class="location__map__left__subtitle">
+                            Видное , Белокаменное шоссе, 20
+                        </p>
+                        
+                        <h4 class="location__map__left__smallTitle">
+                            Телефон:
+                        </h4>
+                        <p class="location__map__left__smalltext">
+                            +7 926 330-68-34
+                        </p>
+                        
+                    </div>
+                    <div class="location__map__right">
+                       <img src="./images/location.png" alt="">
+                    </div>
+                    
+                </div>
+                <div class="location__bottom flex">
+                    <p class="location__bottom__text">Политика конфиденциальности</p>
+                    <p class="location__bottom__text">Согласие на обработку персональных данных</p>
+                </div>
+            </div>
+        </div>
+      </section>
+    </main>
+    
+    <script src="./js/app.js"></script>
+</body>
+</html>
